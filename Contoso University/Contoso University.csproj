@@ -234,6 +234,10 @@
     <Compile Include="Migrations\201508120459070_ColumnFirstName.Designer.cs">
       <DependentUpon>201508120459070_ColumnFirstName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201508121814089_ComplexDataModel.cs" />
+    <Compile Include="Migrations\201508121814089_ComplexDataModel.Designer.cs">
+      <DependentUpon>201508121814089_ComplexDataModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -335,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201508120459070_ColumnFirstName.resx">
       <DependentUpon>201508120459070_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508121814089_ComplexDataModel.resx">
+      <DependentUpon>201508121814089_ComplexDataModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
